@@ -4,9 +4,9 @@ import { useState, useEffect, useCallback } from "react";
 // GOOGLE SHEETS CONFIG
 // ============================================================
 // Replace these with your actual values after setup (see README)
-const SHEET_ID = "YOUR_GOOGLE_SHEET_ID";
-const API_KEY = "YOUR_GOOGLE_API_KEY";
-const CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID";
+const SHEET_ID = "1AXdXHGTqdkwSt1x54mC9brOBlJRYIhLVAFGqX55NBgY";
+const API_KEY = "AIzaSyDT4fSCHv8oXdjv59iUuql-xKh7NorU9eY";
+const CLIENT_ID = "359567619917-30hbtcv8etbmgshc1e8tq3qsbko39g9s.apps.googleusercontent.com";
 
 const SCOPES = "https://www.googleapis.com/auth/spreadsheets";
 
