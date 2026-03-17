@@ -184,12 +184,12 @@ export default function DairyOrderManager() {
   const navigate = (p) => { setPage(p); setSidebarOpen(false); };
 
   return (
-    <div style={{ display: "flex", minHeight: "100vh", background: "#F4F1EC", fontFamily: "'Nunito', sans-serif" }}>
+    <div style={{ display: "flex", minHeight: "100vh", background: "#F4F1EC", fontFamily: "'Poppins', sans-serif" }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap');
+        @import url@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: #f0ede6; } ::-webkit-scrollbar-thumb { background: #c8bfb0; border-radius: 3px; }
-        input, select, textarea { font-family: 'Nunito', sans-serif; }
+        input, select, textarea { font-family: 'Poppins', sans-serif; }
         .nav-item { display:flex; align-items:center; gap:10px; padding:10px 16px; border-radius:10px; cursor:pointer; transition:all 0.15s; font-size:14px; font-weight:600; color:#8A7E6E; text-decoration:none; border:none; background:none; width:100%; }
         .nav-item:hover { background:#EDE8DF; color:#3D2B1F; }
         .nav-item.active { background:#3D2B1F; color:#F9F4EE; }
@@ -489,7 +489,7 @@ function ProductsPage({ products, setProducts, notify }) {
               <span style={{ fontSize: 11, fontWeight: 700, background: unitColors[p.unit] || "#F4F1EC", color: "#3D2B1F", padding: "2px 8px", borderRadius: 20 }}>{p.unit}</span>
             </div>
             <div style={{ fontWeight: 800, fontSize: 15, color: "#3D2B1F", marginTop: 10 }}>{p.product_name}</div>
-            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 22, color: "#059669", marginTop: 4 }}>₹{parseFloat(p.price).toFixed(0)}<span style={{ fontSize: 12, color: "#8A7E6E", fontFamily: "'Nunito', sans-serif" }}>/{p.unit}</span></div>
+            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 22, color: "#059669", marginTop: 4 }}>₹{parseFloat(p.price).toFixed(0)}<span style={{ fontSize: 12, color: "#8A7E6E", fontFamily: "'Poppins', sans-serif" }}>/{p.unit}</span></div>
             <button className="btn btn-outline btn-sm" style={{ marginTop: 12, width: "100%" }} onClick={() => startEdit(p, i)}>Edit Price</button>
           </div>
         ))}
